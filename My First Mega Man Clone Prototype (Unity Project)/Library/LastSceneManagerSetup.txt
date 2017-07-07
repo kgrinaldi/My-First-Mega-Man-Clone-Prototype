@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/My First Mega Man Clone Prototype.unity
+  isLoaded: 1
+  isActive: 1

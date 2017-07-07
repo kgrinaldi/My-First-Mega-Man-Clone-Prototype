@@ -1,0 +1,35 @@
+/*
+                        while(active == true && x + a != gridCollisionDetection[0].Length - 1 && y + b != gridCollisionDetection.Length - 1)
+                        {
+                            if (gridCollisionDetection[y][x + a] == 1) //finding x
+                            {
+                                a++;
+                                active = true;
+                            }
+
+                            else if (gridCollisionDetection[y + b][x] == 1) //finding y
+                            {
+                                b++;
+                                active = true;
+                            }
+
+                            else if (gridCollisionDetection[y][x + a] == 0 && gridCollisionDetection[y + b][x] == 0) //finalizing beginning point and end point as if it were a rectangle
+                            {*/
+                                List<Point> temp = new List<Point>();
+
+                                temp.Add(new Point(x, y));
+                                temp.Add(new Point(x + a, y + b));
+
+                                Console.WriteLine("New Collision Rectangle");
+                                Console.WriteLine("(" + x + "," + y + ")");
+                                Console.WriteLine("(" + (x + a) + "," + (y + b) + ")");
+                                Console.WriteLine(" ");
+
+                                collision.Add(temp);
+
+                                active = false; /*
+                            }
+
+                        }
+                        
+                    } */

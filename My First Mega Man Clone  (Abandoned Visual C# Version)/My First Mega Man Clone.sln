@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My First Mega Man Clone", "My First Mega Man Clone\My First Mega Man Clone.csproj", "{6B0C68A7-739E-4384-8658-B10DE5550CDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA21AD91-CD3C-4577-8868-7522B5709321}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\Mega Man Sprites\Mega Man Hurt Left.png = Assets\Mega Man Sprites\Mega Man Hurt Left.png
+		Assets\Mega Man Sprites\Mega Man Hurt Right.png = Assets\Mega Man Sprites\Mega Man Hurt Right.png
+		Assets\Mega Man Sprites\Mega Man Jump Fire Left.png = Assets\Mega Man Sprites\Mega Man Jump Fire Left.png
+		Assets\Mega Man Sprites\Mega Man Jump Fire Right.png = Assets\Mega Man Sprites\Mega Man Jump Fire Right.png
+		Assets\Mega Man Sprites\Mega Man Jump Left.png = Assets\Mega Man Sprites\Mega Man Jump Left.png
+		Assets\Mega Man Sprites\Mega Man Jump Right.png = Assets\Mega Man Sprites\Mega Man Jump Right.png
+		Assets\Mega Man Sprites\Mega Man Left.png = Assets\Mega Man Sprites\Mega Man Left.png
+		Assets\Mega Man Sprites\Mega Man Right.png = Assets\Mega Man Sprites\Mega Man Right.png
+		Assets\Mega Man Sprites\Mega Man Run Fire One Left.png = Assets\Mega Man Sprites\Mega Man Run Fire One Left.png
+		Assets\Mega Man Sprites\Mega Man Run Fire One Right.png = Assets\Mega Man Sprites\Mega Man Run Fire One Right.png
+		Assets\Mega Man Sprites\Mega Man Run Fire Three Left.png = Assets\Mega Man Sprites\Mega Man Run Fire Three Left.png
+		Assets\Mega Man Sprites\Mega Man Run Fire Three Right.png = Assets\Mega Man Sprites\Mega Man Run Fire Three Right.png
+		Assets\Mega Man Sprites\Mega Man Run Fire Two Left.png = Assets\Mega Man Sprites\Mega Man Run Fire Two Left.png
+		Assets\Mega Man Sprites\Mega Man Run Fire Two Right.png = Assets\Mega Man Sprites\Mega Man Run Fire Two Right.png
+		Assets\Mega Man Sprites\Mega Man Run One Left.png = Assets\Mega Man Sprites\Mega Man Run One Left.png
+		Assets\Mega Man Sprites\Mega Man Run One Right.png = Assets\Mega Man Sprites\Mega Man Run One Right.png
+		Assets\Mega Man Sprites\Mega Man Run Three Left.png = Assets\Mega Man Sprites\Mega Man Run Three Left.png
+		Assets\Mega Man Sprites\Mega Man Run Three Right.png = Assets\Mega Man Sprites\Mega Man Run Three Right.png
+		Assets\Mega Man Sprites\Mega Man Run Two Left.png = Assets\Mega Man Sprites\Mega Man Run Two Left.png
+		Assets\Mega Man Sprites\Mega Man Run Two Right.png = Assets\Mega Man Sprites\Mega Man Run Two Right.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B0C68A7-739E-4384-8658-B10DE5550CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0C68A7-739E-4384-8658-B10DE5550CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0C68A7-739E-4384-8658-B10DE5550CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0C68A7-739E-4384-8658-B10DE5550CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

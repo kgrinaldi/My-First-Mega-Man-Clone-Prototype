@@ -1,0 +1,11 @@
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\bin\Debug\My First Mega Man Clone.exe.config
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\bin\Debug\My First Mega Man Clone.exe
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\bin\Debug\My First Mega Man Clone.pdb
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My First Mega Man Clone.csprojResolveAssemblyReference.cache
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My_First_Mega_Man_Clone.formGame.resources
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My_First_Mega_Man_Clone.Properties.Resources.resources
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My First Mega Man Clone.csproj.GenerateResource.Cache
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My First Mega Man Clone.exe
+c:\users\ridleysamus\documents\visual studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My First Mega Man Clone.pdb
+C:\Users\ridleysamus\Documents\Visual Studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My First Mega Man Clone.g.resources
+C:\Users\ridleysamus\Documents\Visual Studio 2015\Projects\My First Mega Man Clone\My First Mega Man Clone\obj\Debug\My_First_Mega_Man_Clone.frmGame (2016_04_10 18_17_02 UTC).resources

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B0C68A7-739E-4384-8658-B10DE5550CDB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>My_First_Mega_Man_Clone</RootNamespace>
+    <AssemblyName>My First Mega Man Clone</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bossCharacter.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="gameProjectile.cs" />
+    <Compile Include="playerCharacter.cs" />
+    <Compile Include="formGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGame.Designer.cs">
+      <DependentUpon>formGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="playerState.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formGame.resx">
+      <DependentUpon>formGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGame %282016_04_10 18_17_02 UTC%29.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mega Man 10.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\Mega Man 10.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Boss Arena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Fire Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Fire Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Hit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Hurt Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Hurt Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Jump Fire Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Jump Fire Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Jump Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Jump Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire One Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire One Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire Three Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire Three Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire Two Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Fire Two Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run One Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run One Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Three Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Three Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Two Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Mega Man Run Two Right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
